@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "Dental_illustration",
+    "slug": "Dental_illustration"
+  }
+}
+
