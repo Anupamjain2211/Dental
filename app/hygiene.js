@@ -16,50 +16,50 @@ export default function Hygiene() {
   const router = useRouter(); 
   const items = [
     {
-      title: "01. 3D teeth anatomy, root system.",
-      image: require("../assets/anatomy/anatomy.png"),
+      title: "Brushing teeth with the toothbrush ",
+      image: require("../assets/hygeine-and-whitening/Brushing-teeth-with-the-toothbrush/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy3.png"),
-        require("../assets/anatomy/anatomy5.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/hygeine-and-whitening/Brushing-teeth-with-the-toothbrush/01.png"),
+        require("../assets/hygeine-and-whitening/Brushing-teeth-with-the-toothbrush/02.png"),
+        require("../assets/hygeine-and-whitening/Brushing-teeth-with-the-toothbrush/03.png"),
+        require("../assets/hygeine-and-whitening/Brushing-teeth-with-the-toothbrush/04.png"),
       ],
     },
     {
-      title: "02. Anatomy of the incisors macro+ dimensions.",
-      image: require("../assets/anatomy/anatomy2.png"),
+      title: "Cleaning with interdental floss",
+      image: require("../assets/hygeine-and-whitening/Cleaning-with-interdental-floss/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-interdental-floss/01.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-interdental-floss/02.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-interdental-floss/03.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-interdental-floss/04.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-interdental-floss/05.png"),
       ],
     },
     {
-      title: "03. Dental atlases, information.",
-      image: require("../assets/anatomy/anatomy4.png"),
+      title: "Cleaning with an interdental brush ",
+      image: require("../assets/hygeine-and-whitening/Cleaning-with-an-interdental-brush/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-an-interdental-brush/01.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-an-interdental-brush/02.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-an-interdental-brush/03.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-an-interdental-brush/04.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-an-interdental-brush/05.png"),
+        require("../assets/hygeine-and-whitening/Cleaning-with-an-interdental-brush/06.png"),
+
       ],
     },
     {
-      title: "04. Anatomy of normal occlusion.",
-      image: require("../assets/anatomy/anatomy3.png"),
+      title: "Plaque on the teeth, stone formation",
+      image: require("../assets/hygeine-and-whitening/Plaque-on-the-teeth/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/hygeine-and-whitening/Plaque-on-the-teeth/01.png"),
+        require("../assets/hygeine-and-whitening/Plaque-on-the-teeth/02.png"),
+        require("../assets/hygeine-and-whitening/Plaque-on-the-teeth/03.png"),
+
       ],
     },
-    {
-      title: "05. Wisdom teeth, different types and regions.",
-      image: require("../assets/anatomy/anatomy5.png"),
-      images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-      ],
-    },
+  
   ];
 
   const [modalVisible, setModalVisible] = useState(false);

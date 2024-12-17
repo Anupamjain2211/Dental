@@ -16,48 +16,46 @@ export default function Therapy() {
   const router = useRouter(); 
   const items = [
     {
-      title: "01. 3D teeth anatomy, root system.",
-      image: require("../assets/anatomy/anatomy.png"),
+      title: "Caries - stages of development",
+      image: require("../assets/therapy/Caries-stages-development/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy3.png"),
-        require("../assets/anatomy/anatomy5.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/therapy/Caries-stages-development/01.png"),
+        require("../assets/therapy/Caries-stages-development/02.png"),
+        require("../assets/therapy/Caries-stages-development/03.png"),
+        require("../assets/therapy/Caries-stages-development/04.png"),
+        require("../assets/therapy/Caries-stages-development/05.png"),
       ],
     },
     {
-      title: "02. Anatomy of the incisors macro+ dimensions.",
-      image: require("../assets/anatomy/anatomy2.png"),
+      title: "Periodontitis",
+      image: require("../assets/therapy/periodontitis/Hero01.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/therapy/periodontitis/01.png"),
+        require("../assets/therapy/periodontitis/02.png"),
+        require("../assets/therapy/periodontitis/03.png"),
+        require("../assets/therapy/periodontitis/04.png"),
+
       ],
     },
     {
-      title: "03. Dental atlases, information.",
-      image: require("../assets/anatomy/anatomy4.png"),
+      title: "Cosmetic Tooth Bonding",
+      image: require("../assets/therapy/cosmetic-tooth-bonding/Hero02.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/therapy/cosmetic-tooth-bonding/01.png"),
+        require("../assets/therapy/cosmetic-tooth-bonding/02.png"),
+        require("../assets/therapy/cosmetic-tooth-bonding/03.png"),
+
       ],
     },
     {
-      title: "04. Anatomy of normal occlusion.",
-      image: require("../assets/anatomy/anatomy3.png"),
+      title: "Tooth extension using a pin, restoration",
+      image: require("../assets/therapy/tooth-extension/Hero03.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-      ],
-    },
-    {
-      title: "05. Wisdom teeth, different types and regions.",
-      image: require("../assets/anatomy/anatomy5.png"),
-      images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/therapy/tooth-extension/01.png"),
+        require("../assets/therapy/tooth-extension/02.png"),
+        require("../assets/therapy/tooth-extension/03.png"),
+        require("../assets/therapy/tooth-extension/04.png"),
+
       ],
     },
   ];

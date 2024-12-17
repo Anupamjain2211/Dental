@@ -16,50 +16,59 @@ export default function Surgery() {
   const router = useRouter();
   const items = [
     {
-      title: "01. 3D teeth anatomy, root system.",
-      image: require("../assets/anatomy/anatomy.png"),
+      title: "Normal tooth extraction",
+      image: require("../assets/surgery/normal-tooth-extraction/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy3.png"),
-        require("../assets/anatomy/anatomy5.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/surgery/normal-tooth-extraction/1.png"),
+        require("../assets/surgery/normal-tooth-extraction/2.png"),
+        require("../assets/surgery/normal-tooth-extraction/3.png"),
+        require("../assets/surgery/normal-tooth-extraction/4.png"),
+       
       ],
     },
     {
-      title: "02. Anatomy of the incisors macro+ dimensions.",
-      image: require("../assets/anatomy/anatomy2.png"),
+      title: "Hemisection",
+      image: require("../assets/surgery/Hemisection/Hero01.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/surgery/Hemisection/1.png"),
+        require("../assets/surgery/Hemisection/2.png"),
+        require("../assets/surgery/Hemisection/3.png"),
+        require("../assets/surgery/Hemisection/4.png"),
+        require("../assets/surgery/Hemisection/5.png"),
+        require("../assets/surgery/Hemisection/6.png"),
+        require("../assets/surgery/Hemisection/7.png"),
+
       ],
     },
     {
-      title: "03. Dental atlases, information.",
-      image: require("../assets/anatomy/anatomy4.png"),
+      title: "Crestal sinus lift ",
+      image: require("../assets/surgery/Crestal-sinus-lift/Hero02.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/surgery/Crestal-sinus-lift/01.png"),
+        require("../assets/surgery/Crestal-sinus-lift/02.png"),
+        require("../assets/surgery/Crestal-sinus-lift/03.png"),
+        require("../assets/surgery/Crestal-sinus-lift/4.png"),
+        require("../assets/surgery/Crestal-sinus-lift/05.png"),
+        require("../assets/surgery/Crestal-sinus-lift/06.png"),
+        require("../assets/surgery/Crestal-sinus-lift/07.png"),
+
       ],
     },
     {
-      title: "04. Anatomy of normal occlusion.",
-      image: require("../assets/anatomy/anatomy3.png"),
+      title: "Lateral sinus lift ",
+      image: require("../assets/surgery/Lateral-sinus-lift/Hero03.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/surgery/Lateral-sinus-lift/01.png"),
+        require("../assets/surgery/Lateral-sinus-lift/02.png"),
+        require("../assets/surgery/Lateral-sinus-lift/03.png"),
+        require("../assets/surgery/Lateral-sinus-lift/04.png"),
+        require("../assets/surgery/Lateral-sinus-lift/05.png"),
+        require("../assets/surgery/Lateral-sinus-lift/06.png"),
+        require("../assets/surgery/Lateral-sinus-lift/07.png"),
+
       ],
     },
-    {
-      title: "05. Wisdom teeth, different types and regions.",
-      image: require("../assets/anatomy/anatomy5.png"),
-      images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-      ],
-    },
+   
   ];
 
   const [modalVisible, setModalVisible] = useState(false);

@@ -16,48 +16,67 @@ export default function Prosthetics() {
   const router = useRouter(); 
   const items = [
     {
-      title: "01. 3D teeth anatomy, root system.",
-      image: require("../assets/anatomy/anatomy.png"),
+      title: "Preparation for veneer with dimensions",
+      image: require("../assets/prosthetics/Preparation-for-veneer/Hero01.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy3.png"),
-        require("../assets/anatomy/anatomy5.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/prosthetics/Preparation-for-veneer/01.png"),
+        require("../assets/prosthetics/Preparation-for-veneer/02.png"),
+        require("../assets/prosthetics/Preparation-for-veneer/03.png"),
+        require("../assets/prosthetics/Preparation-for-veneer/04.png"),
+        require("../assets/prosthetics/Preparation-for-veneer/05.png"),
       ],
     },
     {
-      title: "02. Anatomy of the incisors macro+ dimensions.",
-      image: require("../assets/anatomy/anatomy2.png"),
+      title: "Minimally invasive preparation, difference",
+      image: require("../assets/prosthetics/Minimally-invasive-preparation/Hero02.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/prosthetics/Minimally-invasive-preparation/01.png"),
+        require("../assets/prosthetics/Minimally-invasive-preparation/02.png"),
+        require("../assets/prosthetics/Minimally-invasive-preparation/03.png"),
+        require("../assets/prosthetics/Minimally-invasive-preparation/04.png"),
+        require("../assets/prosthetics/Minimally-invasive-preparation/05.png"),
+
       ],
     },
     {
-      title: "03. Dental atlases, information.",
-      image: require("../assets/anatomy/anatomy4.png"),
+      title: "Dental bridge or implant, difference",
+      image: require("../assets/prosthetics/Dental-bridge-or-implant/Hero03.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/prosthetics/Dental-bridge-or-implant/01.png"),
+        require("../assets/prosthetics/Dental-bridge-or-implant/02.png"),
+        require("../assets/prosthetics/Dental-bridge-or-implant/03.png"),
+        require("../assets/prosthetics/Dental-bridge-or-implant/04.png"),
+        require("../assets/prosthetics/Dental-bridge-or-implant/05.png"),
+        require("../assets/prosthetics/Dental-bridge-or-implant/06.png"),
+        require("../assets/prosthetics/Dental-bridge-or-implant/07.png"),
+
       ],
     },
     {
-      title: "04. Anatomy of normal occlusion.",
-      image: require("../assets/anatomy/anatomy3.png"),
+      title: "Replace amalgam with composite ",
+      image: require("../assets/prosthetics/Replace-amalgam/Hero04.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/prosthetics/Replace-amalgam/01.png"),
+        require("../assets/prosthetics/Replace-amalgam/02.png"),
+        require("../assets/prosthetics/Replace-amalgam/03.png"),
+        require("../assets/prosthetics/Replace-amalgam/04.png"),
+        require("../assets/prosthetics/Replace-amalgam/05.png"),
+        require("../assets/prosthetics/Replace-amalgam/06.png"),
+        require("../assets/prosthetics/Replace-amalgam/07.png"),
+
       ],
     },
     {
-      title: "05. Wisdom teeth, different types and regions.",
-      image: require("../assets/anatomy/anatomy5.png"),
+      title: "Veneers",
+      image: require("../assets/prosthetics/Veneers/Hero05.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/prosthetics/Veneers/01.png"),
+        require("../assets/prosthetics/Veneers/02.png"),
+        require("../assets/prosthetics/Veneers/03.png"),
+        require("../assets/prosthetics/Veneers/04.png"),
+        require("../assets/prosthetics/Veneers/05.png"),
+        require("../assets/prosthetics/Veneers/06.png"),
+
       ],
     },
   ];

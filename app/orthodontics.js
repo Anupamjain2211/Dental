@@ -16,50 +16,52 @@ export default function Orthodontics() {
   const router = useRouter(); 
   const items = [
     {
-      title: "01. 3D teeth anatomy, root system.",
-      image: require("../assets/anatomy/anatomy.png"),
+      title: "Braces- different materials",
+      image: require("../assets/orthodontics/braces-different-materials/Hero1.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy3.png"),
-        require("../assets/anatomy/anatomy5.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/orthodontics/braces-different-materials/1.png"),
+        require("../assets/orthodontics/braces-different-materials/2.png"),
+        require("../assets/orthodontics/braces-different-materials/3.png"),
+        require("../assets/orthodontics/braces-different-materials/4.png"),
       ],
     },
     {
-      title: "02. Anatomy of the incisors macro+ dimensions.",
-      image: require("../assets/anatomy/anatomy2.png"),
+      title: "Lingual braces",
+      image: require("../assets/orthodontics/Lingual-braces/Hero2.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/orthodontics/Lingual-braces/1.png"),
+        require("../assets/orthodontics/Lingual-braces/2.png"),
+        require("../assets/orthodontics/Lingual-braces/3.png"),
+        require("../assets/orthodontics/Lingual-braces/4.png"),
+        require("../assets/orthodontics/Lingual-braces/5.png"),
+
       ],
     },
     {
-      title: "03. Dental atlases, information.",
-      image: require("../assets/anatomy/anatomy4.png"),
+      title: "Dental splinting - Retainers",
+      image: require("../assets/orthodontics/dental-splinting/Hero3.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/orthodontics/dental-splinting/1.png"),
+        require("../assets/orthodontics/dental-splinting/2.png"),
+        require("../assets/orthodontics/dental-splinting/4.png"),
+        require("../assets/orthodontics/dental-splinting/5.png"),
+
       ],
     },
     {
-      title: "04. Anatomy of normal occlusion.",
-      image: require("../assets/anatomy/anatomy3.png"),
+      title: "Hygiene for braces",
+      image: require("../assets/orthodontics/hygiene-braces/Hero4.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/orthodontics/hygiene-braces/1.png"),
+        require("../assets/orthodontics/hygiene-braces/2.png"),
+        require("../assets/orthodontics/hygiene-braces/3.png"),
+        require("../assets/orthodontics/hygiene-braces/4.png"),
+        require("../assets/orthodontics/hygiene-braces/5.png"),
+        require("../assets/orthodontics/hygiene-braces/6.png"),
+
       ],
     },
-    {
-      title: "05. Wisdom teeth, different types and regions.",
-      image: require("../assets/anatomy/anatomy5.png"),
-      images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-      ],
-    },
+   
   ];
 
   const [modalVisible, setModalVisible] = useState(false);

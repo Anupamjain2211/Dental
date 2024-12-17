@@ -16,50 +16,55 @@ export default function Implantation() {
   const router = useRouter(); 
   const items = [
     {
-      title: "01. 3D teeth anatomy, root system.",
-      image: require("../assets/anatomy/anatomy.png"),
+      title: "Implant, abuntment, and crown",
+      image: require("../assets/implantation/Implant-aboutment-crown/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy3.png"),
-        require("../assets/anatomy/anatomy5.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/implantation/Implant-aboutment-crown/1.png"),
+        require("../assets/implantation/Implant-aboutment-crown/2.png"),
+        require("../assets/implantation/Implant-aboutment-crown/3.png"),
+        require("../assets/implantation/Implant-aboutment-crown/4.png"),
+
+        
       ],
     },
     {
-      title: "02. Anatomy of the incisors macro+ dimensions.",
-      image: require("../assets/anatomy/anatomy2.png"),
+      title: "Bridge on the implants",
+      image: require("../assets/implantation/bridge-on-the-implants/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/implantation/bridge-on-the-implants/1.png"),
+        require("../assets/implantation/bridge-on-the-implants/2.png"),
+        require("../assets/implantation/bridge-on-the-implants/3.png"),
+
       ],
     },
     {
-      title: "03. Dental atlases, information.",
-      image: require("../assets/anatomy/anatomy4.png"),
+      title: "Crestal sinus lift",
+      image: require("../assets/implantation/Crestal-sinus-lift/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/implantation/Crestal-sinus-lift/1.png"),
+        require("../assets/implantation/Crestal-sinus-lift/2.png"),
+        require("../assets/implantation/Crestal-sinus-lift/3.png"),
+        require("../assets/implantation/Crestal-sinus-lift/4.png"),
+        require("../assets/implantation/Crestal-sinus-lift/5.png"),
+        require("../assets/implantation/Crestal-sinus-lift/6.png"),
+
+
       ],
     },
     {
-      title: "04. Anatomy of normal occlusion.",
-      image: require("../assets/anatomy/anatomy3.png"),
+      title: "Lateral sinus lifting(side access)",
+      image: require("../assets/implantation/lateral-sinus-lifting/Hero.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/implantation/lateral-sinus-lifting/1.png"),
+        require("../assets/implantation/lateral-sinus-lifting/2.png"),
+        require("../assets/implantation/lateral-sinus-lifting/3.png"),
+        require("../assets/implantation/lateral-sinus-lifting/4.png"),
+        require("../assets/implantation/lateral-sinus-lifting/5.png"),
+        require("../assets/implantation/lateral-sinus-lifting/6.png"),
+
       ],
     },
-    {
-      title: "05. Wisdom teeth, different types and regions.",
-      image: require("../assets/anatomy/anatomy5.png"),
-      images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-      ],
-    },
+   
   ];
 
   const [modalVisible, setModalVisible] = useState(false);

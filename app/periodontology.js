@@ -16,50 +16,51 @@ export default function Periodontology() {
   const router = useRouter(); 
   const items = [
     {
-      title: "01. 3D teeth anatomy, root system.",
-      image: require("../assets/anatomy/anatomy.png"),
+      title: "Gum anatomy",
+      image: require("../assets/periodontology/gum-anatomy/Hero01.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy3.png"),
-        require("../assets/anatomy/anatomy5.png"),
-        require("../assets/anatomy/anatomy4.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/periodontology/gum-anatomy/01.png"),
+        require("../assets/periodontology/gum-anatomy/02.png"),
+        require("../assets/periodontology/gum-anatomy/03.png"),
+        require("../assets/periodontology/gum-anatomy/04.png"),
+       
       ],
     },
     {
-      title: "02. Anatomy of the incisors macro+ dimensions.",
-      image: require("../assets/anatomy/anatomy2.png"),
+      title: "Periodontitis",
+      image: require("../assets/periodontology/periodontitis/Hero02.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/periodontology/periodontitis/1.png"),
+        require("../assets/periodontology/periodontitis/2.png"),
+        require("../assets/periodontology/periodontitis/3.png"),
+
       ],
     },
     {
-      title: "03. Dental atlases, information.",
-      image: require("../assets/anatomy/anatomy4.png"),
+      title: "Gum recession",
+      image: require("../assets/periodontology/gum-recession/Hero03.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/periodontology/gum-recession/01.png"),
+        require("../assets/periodontology/gum-recession/02.png"),
+        require("../assets/periodontology/gum-recession/03.png"),
+        require("../assets/periodontology/gum-recession/04.png"),
+
       ],
     },
     {
-      title: "04. Anatomy of normal occlusion.",
-      image: require("../assets/anatomy/anatomy3.png"),
+      title: "Gingival curettage",
+      image: require("../assets/periodontology/gingival-curettage/Hero04.png"),
       images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
+        require("../assets/periodontology/gingival-curettage/01.png"),
+        require("../assets/periodontology/gingival-curettage/02.png"),
+        require("../assets/periodontology/gingival-curettage/03.png"),
+        require("../assets/periodontology/gingival-curettage/04.png"),
+        require("../assets/periodontology/gingival-curettage/05.png"),
+
+
       ],
     },
-    {
-      title: "05. Wisdom teeth, different types and regions.",
-      image: require("../assets/anatomy/anatomy5.png"),
-      images: [
-        require("../assets/anatomy/anatomy.png"),
-        require("../assets/anatomy/anatomy2.png"),
-      ],
-    },
+   
   ];
 
   const [modalVisible, setModalVisible] = useState(false);

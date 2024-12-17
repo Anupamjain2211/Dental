@@ -11,7 +11,7 @@ import { Link } from "expo-router";
 
 export default function Dental() {
   const menuItems = [
-    "Anatomy",
+    // "Anatomy",
     "Hygiene and whitening",
     "Therapy",
     "Prosthetics",
