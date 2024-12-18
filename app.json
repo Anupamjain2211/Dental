@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Denta Care",
-    "slug": "Denta Care",
+    "name": "Dental Care",
+    "slug": "denta-care",
     "scheme": "denta-care",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -35,8 +35,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "11fa1e42-2c5b-4897-a104-496e80f9159b"
+        "projectId": "b31cf5a2-5821-4ccc-af54-e6eb7ca8b52b"
       }
-    }
+    },
+    "owner": "anupamjain"
   }
 }
